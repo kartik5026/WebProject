@@ -1,0 +1,622 @@
+
+/* Navigation */ 
+
+/* search bar*/
+#Aname:hover{color:blue;}
+#Tname:hover{color:blue;}
+#Hname:hover{color:blue;}
+#Ename:hover{color:blue;}
+#Sname:hover{color:blue;}
+#Fname:hover{color:blue;}
+
+html{
+	font-size: 10px;
+	
+	}
+
+@media(max-width: 1200px){
+
+	#appliances{position: relative;margin-top:8rem;}	
+}
+
+
+
+@media(max-width: 998px){
+
+	html{font-size:45.5%;}
+
+	#top{width:100vw;}
+	#bottom{width:100vw;}
+	#Sname{position: absolute;margin-left: -8rem;top:3rem;}
+	#Ename{position: absolute;margin-left: -8rem;top:3rem;}
+	#Fname{position: absolute;margin-left: -8rem;top:3rem;}
+	#Aname{position: absolute;margin-left: -8rem;top:3rem;}
+	#Tname{position: absolute;margin-left: -8rem;top:25rem;}
+	#Hname{position: absolute;margin-left: -8rem;top:3rem;}
+	#Sback{width:40rem; height:50rem;}
+	
+	
+}
+
+@media(max-width: 768px){
+
+	html{font-size:35.5%;}
+	#top{width:100vw;}
+	#bottom{width:100vw;}
+	#Sname{position: relative;margin-left: 0rem;top:8rem;}
+	#Ename{position: relative;margin-left: 0rem;top:8rem;}
+	#Fname{position: relative;margin-left: 0rem;top:8rem;}
+	#Aname{position: relative;margin-left: 0rem;top:8rem;}
+	#Tname{position: relative;margin-left: 0rem;top:33rem;}
+	#Hname{position: relative;margin-left: 0rem;top:8rem;}
+	#dmode{position: relative;top:0.1rem;left:0.3rem;}
+	#srchbtn{height: 3rem;}
+	}
+		
+}
+
+html{
+	min-width:668px;
+}
+#top{
+	position:sticky;
+	top: 0;
+	z-index: 2;
+	background-color:#2f3542;
+	height:6rem;
+	width:100%;
+}
+
+
+
+#searchbox{
+	position: fixed;
+	margin-left: 10rem;
+}
+#searchbox>input{
+	margin-left: 16rem;
+	position: relative;
+	margin-top:1rem;
+	width:30rem;
+	height:3rem;
+	font-size: 1.5rem;
+	font-family: cursive;
+	border:1px solid black;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	opacity: 0.5;
+}
+
+#searchbox>input:hover{
+	box-shadow:1rem 1rem 1.2rem black;
+}
+
+
+#srchbtn{
+	position:fixed;
+	margin-top:1rem;
+	font-size: 1.8rem;
+	border:1px solid black;
+	border-radius: 0px 10px 10px 0px;
+	opacity: 0.5;
+
+}
+
+
+/*---------------------dark mode*-------------------------*/
+#dmode{
+	position: fixed;
+	margin-left: 4.7rem;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+		
+}
+
+
+
+
+#dmode:hover{
+	box-shadow:8px 8px 8px black;
+}
+
+/*dark mode off*/
+
+
+#dmodeoff{
+	position:fixed;
+	margin-top:1rem;
+	font-size:1.5rem;
+	margin-left: 10rem;
+}
+
+#dmodeoff:hover{
+	box-shadow:8px 8px 8px black;
+}
+
+
+
+
+/* sign up*/
+
+#signup{
+	position:fixed;
+	margin-top:1rem;
+	font-size: 1.5rem;
+	margin-left: 30rem;
+
+}
+
+
+#signup:hover{
+	box-shadow:8px 8px 8px black;
+}
+
+/*--------------------------------------------------------SignUpBox----------------------------------------------------------------*/
+
+#signup1{
+	position:absolute;
+	margin-left:68%;
+	top:0rem;
+	display: none;
+	z-index: 1;
+}
+
+/*sign up box background*/
+#Sback{
+	border-radius:5% ;
+	height:40rem;
+}
+
+#Sback:hover{
+	box-shadow: 12px 12px 18px #404040;
+}
+
+#cross{
+	font-size:2rem; color:red; position:absolute; margin-top: 2rem; margin-left:-4rem; z-index: 1; font-size: 3rem;
+}
+
+#NAME{
+	color:white;
+	position:absolute;
+	margin-top:15rem;
+	margin-left: 2rem;
+}
+#EMAIL{
+	color:white;
+	position:absolute;
+	margin-top:20rem;
+	margin-left: 2rem;
+
+}
+#PASSWORD{
+	color:white;
+	position:absolute;
+	margin-top:25rem;
+	margin-left: 2rem;
+
+}
+#CONFIRM{
+	color:white;
+	position:absolute;
+	margin-top:30rem;
+	margin-left: 2rem;
+
+}
+#SUBMIT{
+	position:absolute;
+	margin-top:35rem;
+	margin-left: 2rem;
+
+}
+
+
+/*------------------------------------------------------Mid-secction----------------------------------------------------------*/
+
+
+#mid{
+	position: relative;
+	margin-top:3rem;
+	margin-left: 6rem;
+}
+
+#smartphones{
+	display: inline-block;
+	padding-right: 10rem;
+	
+}
+
+#Sname{
+	position: absolute;
+	margin-left: -8rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+
+}
+
+#smartphones>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+#fashion{
+	display: inline-block;
+	padding-right: 10rem;
+}
+
+#Fname{
+	
+	position: absolute;
+	margin-left: -8rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+
+}
+
+
+#fashion>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+#electronics{
+	display: inline-block;
+	padding-right: 10rem;
+}
+#Ename{
+	position: absolute;
+	margin-left: -8rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+}
+
+#electronics>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+#home{
+	display: inline-block;
+	padding-right: 10rem;
+}
+
+#Hname{
+	position: absolute;
+	margin-left: -7rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+}
+
+#home>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+#toys{
+	display: inline-block;
+	padding-right: 10rem;
+}
+
+#Tname{
+	position: absolute;
+	margin-left: -7rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+}
+
+#toys>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+#appliances{
+	display: inline-block;
+	padding-right: 8rem;
+}
+
+#Aname{
+	position: absolute;
+	margin-left: -8rem;
+	margin-top: 12rem;
+	font-family: "Audiowide";
+}
+
+#appliances>img:hover{
+	box-shadow:1rem 1rem 1.2rem gray;
+}
+
+
+/*----------------------------------------------------TRENDS------------------------------------------------------------------*/
+ #T-heading{
+font-family:"Audiowide";
+font-size:3rem;
+ }
+
+#trend{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ #trend1{
+ 	width:20rem;
+ 	height:30rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+
+ }
+
+ #trend1:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #trend1>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+  #trend2{
+  	width:20rem;
+ 	height:30rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ 
+ }
+
+ #trend2:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #trend2>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+ #trend3{
+ 	width:20rem;
+ 	height:31rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #trend3:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #trend3>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+  #trend4{
+  	width:20rem;
+ 	height:30rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #trend4:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #trend4>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+  #trend5{
+  	width:20rem;
+ 	height:29rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #trend5:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #trend5>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+
+
+/*------------------------------------------------------Offers----------------------------------------------------------------------*/
+
+  #shirt{
+  	width:20rem;
+ 	height:32rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ 
+ 
+ }
+
+ #shirt:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #shirt>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+  #jeans{
+  	width:20rem;
+ 	height:33rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ 
+ }
+
+ #jeans:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #jeans>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+ #accesory{
+ 	width:20rem;
+ 	height:32rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #accesory:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #accesory>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+  #saree{
+  	width:20rem;
+ 	height:32rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #saree:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #saree>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+  #watch{
+  	width:20rem;
+ 	height:31rem;
+ 	display:inline-block;
+ 	margin-left:4rem;
+ }
+
+ #watch:hover{
+ 	box-shadow:1rem 1rem 1.8rem #999999;
+ }
+
+ #watch>img{
+ 	width:inherit;
+ 	height: inherit;
+ }
+
+
+/*--------------------------Scroll Bar--------------------------------------------*/
+
+html::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #434343;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 20px #505050;
+}
+
+html::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+/*-----------------------------------------------Bottom----------------------------------------------------*/
+
+#bottom{
+	
+	color:black;
+	width:100%;
+	height:8rem;
+	margin-top:10rem;
+	background-color:#2f3542;
+	font-size:1.8rem;
+		
+}
+
+#about{
+	margin-top:0.4rem;
+	margin-left:1rem;
+	font-size:2rem;
+
+}
+
+#about:hover{
+	box-shadow:8px 8px 16px black;
+}
+
+#contact{
+	position: absolute;
+	margin-left:14rem;
+	margin-top:0.4rem;
+	font-size:2rem;
+	
+}
+
+#contact:hover{
+box-shadow:8px 8px 16px black;
+}
+
+
+
+#mail{
+	position: absolute;
+	margin-left:40rem;
+	margin-top:0.4rem;
+	font-size:2rem;
+	
+}
+
+#mail:hover{
+box-shadow:8px 8px 16px black;
+}
+
+#social{
+	position: absolute;
+	margin-left:60rem;
+	margin-top:0.4rem;
+	font-size:2rem;
+	
+}
+
+#social:hover{
+box-shadow:8px 8px 16px black;
+}
+
+#business{
+	position: absolute;
+	margin-left:78rem;
+	margin-top:0.4rem;
+	font-size:2rem;
+}
+
+#business:hover{
+	box-shadow:8px 8px 16px black;
+}
+
+#back{
+	position: absolute;
+	margin-left:102rem;
+	margin-top:-3rem;
+	color:white;
+}
+
+#back:hover{
+	color:red;
+}
+
+#back:hover{
+	text-decoration:underline;
+	color:#ff6b8;1
+}
+
+
+#container{
+	margin-left:10rem;
+}
+
